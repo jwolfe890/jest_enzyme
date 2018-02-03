@@ -13,7 +13,7 @@ class Map extends Component {
                     return story.edit ? 
                     <div>
                         <br/>
-                        <input type="text" defaultValue={story.title} ref="stuff2" /><button name="Save" onClick={this.props.handleToggle} value={story.id}>Save</button> 
+                        <input type="text" defaultValue={story.title} ref="stuff2" /><button name="Save!" onClick={this.props.handleToggle} value={story.id}>Save</button> 
                         <br/>
                     </div>
                     : 
